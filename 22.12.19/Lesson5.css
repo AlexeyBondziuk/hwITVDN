@@ -1,0 +1,50 @@
+body
+{
+    background-color: darkgrey;
+}
+
+.sheet
+{
+    margin: 20px auto;
+    width: 60%;
+    background-color: white;
+    padding: 5%;
+}
+.line {
+    width: 90%; /* ширина линии */
+    height: 1px; /* высота / толщина линии */
+    background: black; /* фон / цвет линии */
+    border: 0; /* рамка вокруг разделительной линии (уберем ее) */
+    margin: 0 auto;
+}
+
+.head1
+{
+    font-family: Calibri;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.letter {
+    font-family: "Segoe UI";
+}
+
+h2
+{
+    text-align: center;
+}
+
+pre
+{
+    font-family: Calibri;
+    font-style: italic;
+}
+
+p + i{
+    margin: 10px 5%;
+}
+
+p + i + p{
+    margin: 10px 5%;
+}
