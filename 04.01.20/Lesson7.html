@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gmail</title>
+    <link href="Lesson7.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Googlefavicon.png">
+</head>
+<body>
+
+    <fieldset>
+        <img src="Google.png" alt="Google">
+
+        <h2>Вход</h2>
+        <p>Перейти в Gmail</p>
+
+        <form>
+
+            <label>
+                <input  class="input" type="text" name="Login" placeholder="Телефон или адрес эл. почты">
+                <a class="forgotPassword" href="https://accounts.google.com/signin/v2/usernamerecovery?sacu=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=ru&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                    Забыли адрес эл. почты?</a>
+
+                <p class="guestMode">Работаете на чужом компьютере? Включите гостевой режим.
+                    <a class="More" href="https://support.google.com/chrome/answer/6130773?hl=ru">Подробнее...</a>
+                </p>
+
+            </label>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Создать акаунт</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=ru&dsh=S-317768725%3A1578153730526450&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp">
+                        Для себя</a>
+                    <a href="https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=ru&dsh=S-99769076%3A1578153746284919&gmb=exp&biz=true&flowName=GlifWebSignIn&flowEntry=SignUp">
+                        Для бизнеса</a>
+                </div>
+            </div>
+
+            <input class="submit" type="submit" value="Далее">
+        </form>
+
+    </fieldset>
+
+    <script src="Lesson7.js"></script>
+</body>
+</html>
